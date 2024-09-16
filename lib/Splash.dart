@@ -1,12 +1,16 @@
+//part of third class
+
 import 'package:flutter/material.dart';
 import 'package:module_8/home_screen.dart';
 
 class Splash extends StatefulWidget {
   const Splash({super.key});
 
+
   @override
   State<Splash> createState() => _SplashState();
 }
+
 
 class _SplashState extends State<Splash> {
   @override
@@ -23,3 +27,5 @@ class _SplashState extends State<Splash> {
     );
   }
 }
+
+

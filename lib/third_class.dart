@@ -1,5 +1,7 @@
+//Third Class
+
 import 'package:flutter/material.dart';
-import 'package:module_8/Splash.dart';
+import 'package:module_8/home_screen.dart';
 
 void main() {
   runApp( const MyApp());
@@ -10,8 +12,8 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: Splash(),
+    return MaterialApp(
+      home: HomeScreen(),
     );
   }
 }

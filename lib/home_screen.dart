@@ -1,3 +1,5 @@
+// part of 3rd class
+
 import 'package:flutter/material.dart';
 import 'package:module_8/home_screen.dart';
 
@@ -89,4 +91,3 @@ class _HomeScreenState extends State <HomeScreen> {
 
 }
 
-// 34 minute
